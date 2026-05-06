@@ -1,0 +1,101 @@
+📅 Dia 20 — Principais Tipos de Ataques e Ameaças
+
+Hoje aprofundei meus conhecimentos sobre o cenário de ameaças em Segurança da Informação, entendendo como ataques são estruturados e quais são os principais vetores utilizados por invasores.
+
+⚠️ Introdução aos Ataques e Ameaças
+
+Aprendi que uma ameaça representa qualquer risco potencial capaz de explorar uma vulnerabilidade, enquanto um ataque é a ação concreta realizada para explorar essa falha.
+
+Ameaça → Potencial de dano
+Vulnerabilidade → Falha explorável
+Ataque → Exploração da vulnerabilidade
+
+📌 Insight: Não existe ataque sem vulnerabilidade — e toda vulnerabilidade exposta aumenta o risco.
+
+🎯 Classificação dos Ataques
+
+Os ataques podem ser classificados de acordo com seu objetivo e forma de execução:
+
+Ataques Passivos → Apenas monitoram (ex: interceptação de dados)
+Ataques Ativos → Alteram ou interrompem sistemas
+Ataques Internos → Realizados por pessoas dentro da organização
+Ataques Externos → Vindos de fora da rede
+
+📌 Insight: Ataques internos podem ser mais perigosos por já terem acesso privilegiado.
+
+💻 Principais Tipos de Ataques
+🦠 Malware
+
+Software malicioso criado para causar danos ou obter acesso indevido:
+
+Vírus
+Worms
+Ransomware
+Spyware
+
+📌 Impacto: Roubo de dados, sequestro de informações e controle do sistema.
+
+🎣 Phishing e Engenharia Social
+
+Ataques que exploram o fator humano:
+
+E-mails falsos
+Sites clonados
+Mensagens enganosas
+
+📌 Impacto: Roubo de credenciais e acesso não autorizado.
+
+🌐 Ataques de Rede
+
+Exploram falhas na comunicação:
+
+DDoS (Distributed Denial of Service) → Derrubar serviços
+Man-in-the-Middle (MITM) → Interceptação de comunicação
+Sniffing → Captura de pacotes
+
+📌 Impacto: Interrupção de serviços e vazamento de dados.
+
+🔐 Ataques a Senhas
+
+Focados em comprometer autenticação:
+
+Brute Force
+Dictionary Attack
+Credential Stuffing
+
+📌 Impacto: Acesso indevido a contas e sistemas.
+
+🕳️ Exploração de Vulnerabilidades
+
+Uso de falhas em sistemas ou aplicações:
+
+SQL Injection
+Cross-Site Scripting (XSS)
+Falhas de configuração
+
+📌 Impacto: Controle de sistemas, vazamento ou manipulação de dados.
+
+🧠 Visão Estratégica
+
+Entendi que ataques geralmente seguem um fluxo:
+
+Reconhecimento
+Enumeração
+Exploração
+Pós-exploração
+
+📌 Insight: Conhecer o ciclo de ataque ajuda a identificar e interromper invasões mais cedo.
+
+🚀 Conclusão do Dia
+
+Hoje ficou claro que:
+
+Ataques evoluem constantemente
+O fator humano continua sendo um dos principais vetores
+Sistemas sempre terão vulnerabilidades
+Defesa eficiente exige múltiplas camadas de segurança
+🔥 Próximos Passos
+Estudar ataques na prática (TryHackMe)
+Simular ataques básicos (ex: brute force controlado)
+Aprofundar em análise de vulnerabilidades
+Aprender ferramentas ofensivas e defensivas

@@ -1,0 +1,85 @@
+Dia 23 — Simulação de Regras de Firewall e Análise de Logs
+
+Hoje avancei para uma abordagem prática de defesa, simulando a criação de regras de firewall e analisando o impacto dessas regras por meio de logs.
+
+Objetivo do Estudo
+
+O objetivo foi entender como regras de firewall influenciam diretamente o tráfego de rede e como é possível identificar comportamentos suspeitos a partir dos registros gerados.
+
+Cenário Simulado
+
+Considerei um ambiente com:
+
+Um sistema exposto com serviço de login
+Tráfego de entrada vindo de múltiplos IPs
+Tentativas legítimas e maliciosas
+
+A proposta foi aplicar regras de controle e observar como o sistema reage.
+
+Definição de Regras de Firewall
+
+Simulei algumas regras básicas de controle:
+
+Permitir tráfego HTTP (porta 80)
+Permitir tráfego HTTPS (porta 443)
+Bloquear tentativas repetidas de login após múltiplas falhas
+Restringir acessos suspeitos por endereço IP
+
+Essas regras representam uma configuração inicial comum em ambientes reais.
+
+Insight: Regras simples já são capazes de reduzir significativamente tentativas automatizadas.
+
+Simulação de Tráfego
+
+Considerei dois tipos principais de comportamento:
+
+Tráfego legítimo:
+
+Acessos esporádicos
+Tentativas de login bem-sucedidas
+Baixa frequência de requisições
+
+Tráfego suspeito:
+
+Múltiplas tentativas de login em sequência
+Repetição de requisições em curto intervalo
+Origem concentrada em um único IP
+Análise de Logs
+
+Exemplo de logs observados:
+
+[INFO] Connection allowed - IP: 192.168.0.15 - Port: 443
+[WARNING] Failed login - IP: 192.168.0.20
+[WARNING] Failed login - IP: 192.168.0.20
+[WARNING] Failed login - IP: 192.168.0.20
+[ALERT] IP blocked due to multiple failed attempts - IP: 192.168.0.20
+
+A partir desses registros, foi possível identificar:
+
+Padrões de repetição
+Comportamento automatizado
+Ação do firewall bloqueando o ataque
+
+Insight: Logs bem estruturados permitem identificar rapidamente atividades maliciosas e validar a eficácia das regras.
+
+Impacto das Regras
+
+Após a aplicação das regras, observei:
+
+Redução de tentativas repetidas
+Bloqueio automático de IPs suspeitos
+Manutenção do acesso legítimo
+Maior visibilidade sobre o tráfego
+
+Insight: Um bom conjunto de regras equilibra segurança e usabilidade.
+
+Aprendizados Técnicos
+Firewalls não apenas bloqueiam, mas também geram visibilidade
+Padrões de ataque podem ser identificados por repetição
+Regras mal definidas podem bloquear usuários legítimos
+Monitoramento contínuo é essencial
+Conclusão do Dia
+
+Esse exercício reforçou a importância de combinar controle de tráfego com análise de eventos.
+
+Compreendi que a segurança não está apenas na criação de regras, mas na capacidade de interpretar o comportamento da rede e ajustar as configurações conforme necessário.

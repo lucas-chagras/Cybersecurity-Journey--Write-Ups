@@ -1,0 +1,66 @@
+Dia 21 — Simulação de Ataque (Análise Controlada)
+
+Hoje desenvolvi uma simulação controlada de um ataque comum, com o objetivo de compreender o comportamento de um invasor e, principalmente, como esse tipo de atividade pode ser identificado e mitigado em um ambiente real.
+
+Cenário Simulado
+
+Considerei um ambiente fictício de aplicação web com um sistema básico de autenticação.
+
+O objetivo do atacante, nesse contexto, seria obter acesso não autorizado por meio de tentativas de login.
+
+Fase 1 — Reconhecimento
+
+Na primeira etapa, analisei como um atacante identificaria o alvo. A aplicação apresenta uma página de login acessível publicamente, o que já representa um ponto inicial de exploração.
+
+Também considerei a possibilidade de ausência de mecanismos de proteção, como limitação de tentativas de login.
+
+Insight: Qualquer serviço exposto na internet está sujeito a tentativas constantes de identificação e exploração.
+
+Fase 2 — Enumeração
+
+Em seguida, observei como um atacante poderia extrair informações úteis a partir do comportamento da aplicação.
+
+Foi possível identificar que mensagens de erro distintas, como “usuário inválido” e “senha incorreta”, podem revelar a existência de usuários válidos no sistema.
+
+Insight: Pequenos detalhes na resposta da aplicação podem facilitar significativamente o processo de ataque.
+
+Fase 3 — Tentativas de Acesso
+
+Simulei um cenário de múltiplas tentativas de autenticação utilizando combinações comuns de credenciais, caracterizando um comportamento típico de força bruta.
+
+Esse tipo de abordagem se baseia na repetição e na falta de mecanismos de bloqueio por parte do sistema.
+
+Insight: A utilização de senhas fracas e a ausência de políticas de segurança tornam esse tipo de ataque altamente eficaz.
+
+Fase 4 — Detecção
+
+Analisei como esse comportamento poderia ser identificado por meio de registros de log.
+
+Exemplo de padrão observado:
+
+[WARNING] Failed login attempt - user: admin - IP: 192.168.0.10
+[WARNING] Failed login attempt - user: admin - IP: 192.168.0.10
+[WARNING] Failed login attempt - user: admin - IP: 192.168.0.10
+
+A repetição de tentativas a partir do mesmo endereço IP e em curto intervalo de tempo indica um possível ataque automatizado.
+
+Insight: A análise de logs é essencial para a detecção precoce de atividades suspeitas.
+
+Fase 5 — Mitigação
+
+Por fim, identifiquei medidas que poderiam ser implementadas para reduzir o risco desse tipo de ataque:
+
+Limitação de tentativas de login (rate limiting)
+Implementação de autenticação multifator (MFA)
+Monitoramento contínuo com geração de alertas
+Padronização de mensagens de erro
+
+Insight: A segurança não depende apenas de bloquear ataques, mas de reduzir sua eficácia e impacto.
+
+Conclusão do Dia
+
+Com essa simulação, consegui consolidar uma visão mais prática da segurança da informação, compreendendo melhor a relação entre ataque e defesa.
+
+Percebi que ataques simples continuam sendo amplamente utilizados e que muitas vulnerabilidades estão relacionadas a configurações inadequadas ou ausência de controles básicos.
+
+Além disso, ficou evidente que a capacidade de monitorar e interpretar eventos é tão importante quanto implementar mecanismos de proteção.

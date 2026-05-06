@@ -1,0 +1,98 @@
+📅 Dia 18 — Fundamentos de Segurança da Informação
+
+Hoje aprofundei meus conhecimentos nos principais pilares da Segurança da Informação, entendendo que a proteção de sistemas vai muito além de ferramentas técnicas.
+
+🔐 Introdução à Segurança da Informação
+
+Estudei os conceitos básicos e os objetivos da segurança, com foco na tríade:
+
+Confidencialidade → Garantir acesso apenas a usuários autorizados
+Integridade → Assegurar que os dados não sejam alterados indevidamente
+Disponibilidade → Garantir acesso à informação quando necessário
+
+Também revisei os principais tipos de ameaças:
+
+Malware
+Phishing
+Engenharia social
+Vazamento de dados
+
+📌 Insight: Segurança não é apenas defesa técnica, mas gestão de risco.
+
+🛡️ Tecnologias de Segurança
+
+Conheci as principais soluções utilizadas para proteção de sistemas:
+
+Firewalls
+Antivírus / EDR
+IDS/IPS
+Criptografia
+VPN
+
+📌 Insight: Ferramentas são importantes, mas sem configuração correta e monitoramento constante, perdem sua eficácia.
+
+🧠 Fator Humano
+
+Entendi que o ser humano é um dos maiores vetores de ataque.
+
+Principais vulnerabilidades:
+
+Senhas fracas
+Falta de atenção com links
+Compartilhamento indevido
+
+Medidas de mitigação:
+
+Treinamentos
+Políticas de segurança
+Conscientização
+
+📌 Insight: A maioria dos ataques bem-sucedidos explora comportamento humano, não falhas técnicas.
+
+📜 Processos e Normas
+
+Aprendi a importância da padronização e governança na segurança.
+
+Principais referências:
+
+ISO 27001
+ISO 27002
+LGPD
+
+Processos importantes:
+
+Gestão de riscos
+Controle de acesso
+Auditoria
+Resposta a incidentes
+
+📌 Insight: Segurança madura depende de processos bem definidos, não apenas ferramentas.
+
+🏢 Segurança Física
+
+Explorei como a proteção física também impacta diretamente a segurança da informação.
+
+Controles:
+
+CFTV
+Controle de acesso (biometria/cartão)
+Segurança patrimonial
+
+Riscos:
+
+Roubo de equipamentos
+Incêndios
+Acesso não autorizado
+
+📌 Insight: Não adianta proteger o sistema se o acesso físico não for controlado.
+
+🚀 Conclusão do Dia
+
+Hoje ficou claro que Segurança da Informação é construída sobre 4 pilares:
+
+Tecnologia
+Pessoas
+Processos
+Estrutura física
+
+Todos precisam estar alinhados para uma proteção eficaz.

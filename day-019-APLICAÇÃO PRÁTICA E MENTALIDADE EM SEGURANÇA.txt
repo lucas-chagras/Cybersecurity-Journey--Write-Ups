@@ -1,0 +1,76 @@
+📅 Dia 19 — Aplicação Prática e Mentalidade em Segurança
+
+Hoje evoluí do entendimento teórico para uma visão mais prática da Segurança da Informação, focando em como os conceitos são aplicados no dia a dia de um profissional da área.
+
+🎯 Mentalidade de Segurança (Security Mindset)
+
+Comecei a desenvolver uma mentalidade mais analítica, pensando como atacante e defensor ao mesmo tempo.
+
+Identificar possíveis pontos de falha
+Questionar configurações padrão
+Pensar em “como isso poderia ser explorado?”
+
+📌 Insight: Segurança não é só proteger, é antecipar ataques.
+
+🔍 Superfície de Ataque
+
+Entendi o conceito de superfície de ataque, que representa todos os pontos onde um sistema pode ser explorado.
+
+Exemplos:
+
+Portas abertas
+Aplicações web vulneráveis
+Usuários com acesso privilegiado
+Dispositivos conectados à rede
+
+📌 Insight: Quanto maior a superfície de ataque, maior o risco.
+
+🧪 Introdução à Análise de Vulnerabilidades
+
+Tive contato com a ideia de identificar falhas antes que sejam exploradas.
+
+Principais etapas:
+
+Mapeamento do sistema
+Identificação de vulnerabilidades
+Classificação de risco
+Priorização de correções
+
+Ferramentas comuns:
+
+Nmap
+Nessus
+OpenVAS
+
+📌 Insight: Encontrar vulnerabilidades não é suficiente — é preciso saber priorizar.
+
+⚔️ Visão de Ataque vs Defesa
+
+Compreendi melhor a diferença entre abordagens:
+
+Red Team (Ataque) → Simula invasões
+Blue Team (Defesa) → Monitora e responde
+Purple Team → Integra ataque e defesa
+
+📌 Insight: Os melhores profissionais entendem os dois lados.
+
+📊 Logs e Monitoramento
+
+Entendi a importância dos logs na detecção de incidentes.
+
+Exemplos de uso:
+
+Identificar tentativas de login suspeitas
+Detectar atividades incomuns
+Investigar incidentes
+
+📌 Insight: Quem não monitora, descobre o ataque tarde demais.
+
+🚀 Conclusão do Dia
+
+Hoje marquei a transição de teoria para prática, entendendo que:
+
+Segurança é um processo contínuo
+Pensar como atacante melhora a defesa
+Monitoramento é essencial
+Vulnerabilidades sempre existirão

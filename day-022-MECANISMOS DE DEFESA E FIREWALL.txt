@@ -1,0 +1,77 @@
+Dia 22 — Mecanismos de Defesa e Firewall
+
+Hoje aprofundei meus conhecimentos nos principais mecanismos de defesa em Segurança da Informação, com foco na função dos firewalls como uma das primeiras camadas de proteção em redes.
+
+Introdução aos Sistemas de Defesa
+
+Estudei como a segurança da informação é estruturada em múltiplas camadas, com o objetivo de proteger sistemas contra diferentes tipos de ameaças.
+
+Os mecanismos de defesa atuam de forma complementar e incluem:
+
+Controles de rede
+Monitoramento contínuo
+Políticas de acesso
+Ferramentas de detecção e prevenção
+
+Compreendi que não existe uma única solução capaz de garantir segurança total, sendo necessária uma abordagem em camadas (defesa em profundidade).
+
+Insight: A eficácia da segurança está na combinação de diferentes controles, não em uma única ferramenta.
+
+Firewall
+
+Aprofundei o funcionamento do firewall como um dos principais componentes de defesa.
+
+O firewall atua como uma barreira entre redes confiáveis e não confiáveis, controlando o tráfego com base em regras previamente definidas.
+
+Tipos de Firewall
+
+Identifiquei os principais tipos e suas características:
+
+Filtro de Pacotes (Packet Filtering)
+Analisa pacotes com base em IP, porta e protocolo.
+Stateful Firewall
+Monitora o estado das conexões, permitindo decisões mais inteligentes.
+Proxy Firewall
+Atua como intermediário entre o usuário e o destino.
+Next-Generation Firewall (NGFW)
+Inclui funcionalidades avançadas, como inspeção profunda de pacotes e integração com sistemas de detecção.
+Regras e Funcionamento
+
+Entendi que o funcionamento do firewall depende diretamente da definição de regras, que determinam:
+
+Tráfego permitido
+Tráfego bloqueado
+Portas liberadas
+Protocolos autorizados
+
+Uma configuração inadequada pode comprometer totalmente a segurança do ambiente.
+
+Insight: Um firewall mal configurado pode ser tão perigoso quanto não ter firewall.
+
+Importância na Segurança
+
+O firewall desempenha um papel fundamental ao:
+
+Reduzir a superfície de ataque
+Bloquear acessos não autorizados
+Controlar comunicações entre redes
+Servir como primeira linha de defesa
+
+No entanto, também compreendi que ele não é suficiente sozinho e deve ser combinado com outros mecanismos de segurança.
+
+Limitações
+
+Apesar de sua importância, o firewall possui limitações:
+
+Não protege contra ataques internos
+Pode ser contornado por técnicas avançadas
+Depende de configuração adequada
+Não substitui monitoramento e análise
+
+Insight: Segurança eficaz depende de múltiplas camadas e monitoramento contínuo.
+
+Conclusão do Dia
+
+Com este estudo, consolidei o entendimento de que mecanismos de defesa são essenciais para reduzir riscos e proteger ativos.
+
+O firewall se destaca como um componente fundamental, mas sua eficácia depende diretamente de uma configuração adequada e da integração com outras soluções de segurança.

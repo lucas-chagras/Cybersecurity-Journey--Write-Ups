@@ -1,0 +1,98 @@
+Dia 24 — Introdução à Criptografia
+
+Hoje estudei os fundamentos da criptografia e seu papel na proteção de informações, compreendendo como dados podem ser protegidos tanto em trânsito quanto em repouso.
+
+Introdução à Criptografia
+
+A criptografia é utilizada para transformar informações legíveis em um formato codificado, garantindo que apenas partes autorizadas consigam acessá-las.
+
+Esse processo é essencial para ապահով garantir:
+
+Confidencialidade
+Integridade
+Autenticidade
+
+Compreendi que a criptografia está presente em diversas aplicações do dia a dia, como comunicações seguras, transações financeiras e autenticação de usuários.
+
+Insight: A criptografia é um dos pilares fundamentais da segurança moderna.
+
+Criptografia com Algoritmo de Chave Simétrica
+
+Estudei o modelo de criptografia simétrica, no qual a mesma chave é utilizada tanto para criptografar quanto para descriptografar os dados.
+
+Características principais:
+
+Alta performance
+Ideal para grandes volumes de dados
+Depende de um meio seguro para compartilhamento da chave
+
+Exemplos de algoritmos:
+
+AES
+DES
+
+Vantagens:
+
+Rápida e eficiente
+
+Desvantagens:
+
+Dificuldade na distribuição segura da chave
+
+Insight: A segurança desse modelo depende diretamente da proteção da chave compartilhada.
+
+Criptografia de Chave Pública (Assimétrica)
+
+Também estudei a criptografia assimétrica, que utiliza um par de chaves:
+
+Chave pública (compartilhada)
+Chave privada (mantida em segredo)
+
+Esse modelo resolve o problema de distribuição de chaves presente na criptografia simétrica.
+
+Aplicações comuns:
+
+Troca segura de informações
+Assinaturas digitais
+Protocolos de segurança
+
+Exemplos de algoritmos:
+
+RSA
+
+Vantagens:
+
+Maior segurança na troca de chaves
+
+Desvantagens:
+
+Processamento mais lento
+
+Insight: Criptografia assimétrica é essencial para estabelecer canais seguros.
+
+Certificação Digital
+
+Por fim, estudei o conceito de certificação digital, que garante a autenticidade de entidades em ambientes digitais.
+
+Um certificado digital associa uma identidade a uma chave pública, sendo emitido por uma autoridade confiável.
+
+Elementos envolvidos:
+
+Autoridade Certificadora (CA)
+Chave pública
+Identidade do titular
+
+Aplicações:
+
+HTTPS
+Assinatura digital
+Autenticação em sistemas
+
+Insight: Sem certificação digital, não seria possível confiar na identidade de sistemas na internet.
+
+Conclusão do Dia
+
+Com este estudo, consolidei o entendimento de como a criptografia protege informações e possibilita comunicações seguras.
+
+Percebi que diferentes técnicas são utilizadas em conjunto para equilibrar desempenho e segurança, sendo a combinação de criptografia simétrica e assimétrica amplamente adotada em sistemas modernos.
+
