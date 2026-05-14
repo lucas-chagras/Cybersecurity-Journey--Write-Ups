@@ -1,0 +1,45 @@
+Dia 27 — Introdução à Segurança de Senhas e Autenticação
+
+Hoje iniciei o curso HarvardX CS50 Introduction to Cybersecurity, onde estudei conceitos fundamentais relacionados à autenticação, senhas e engenharia social.
+
+Durante a aula, compreendi os riscos associados ao uso inadequado de credenciais e os métodos mais comuns utilizados para comprometimento de contas.
+
+Principais Conceitos Estudados
+SSO (Single Sign-On)
+Sistema que permite utilizar uma única autenticação para acessar múltiplos serviços.
+Brute Force
+Técnica baseada em múltiplas tentativas automáticas para descoberta de senhas.
+Credential Stuffing
+Método de ataque que utiliza combinações de usuários e senhas vazadas em um serviço para tentar acesso em outros sistemas.
+Compreendi que esse ataque se torna extremamente eficaz porque muitas pessoas reutilizam a mesma senha em diferentes plataformas.
+Senhas fracas e dicionários de senhas
+Estudo sobre como senhas previsíveis facilitam ataques automatizados utilizando listas de palavras comuns.
+Gerenciadores de senha
+Ferramentas recomendadas para criação e armazenamento seguro de senhas complexas e únicas.
+Passkeys e autenticação integrada
+Também compreendi o conceito de autenticação utilizando contas já existentes, como login via Google ou Facebook, reduzindo a necessidade de múltiplas senhas tradicionais.
+Engenharia social
+Técnicas de manipulação utilizadas para induzir usuários a fornecer informações sensíveis.
+Phishing
+Ataques que utilizam páginas ou mensagens falsas para roubo de credenciais.
+Autenticação em dois fatores (2FA)
+Compreendi que autenticação via SMS possui limitações e riscos, sendo menos segura que métodos baseados em aplicativos autenticadores.
+Aplicação Prática
+
+Durante os estudos, também observei exemplos envolvendo automação com Python para simulação de testes relacionados a senhas e compreensão conceitual de ataques de força bruta em ambientes controlados.
+
+Além disso, entendi como gerenciadores de senha ajudam não apenas no armazenamento seguro de credenciais, mas também na identificação de páginas falsas de login.
+
+Como esses gerenciadores reconhecem domínios legítimos, eles podem alertar o usuário quando um site tenta imitar serviços reais, como páginas falsas de login do Google.
+
+Principais Aprendizados
+Muitas pessoas reutilizam a mesma senha em diferentes serviços
+Credential stuffing explora diretamente esse comportamento
+Senhas fracas continuam sendo um dos maiores problemas de segurança
+Gerenciadores de senha reduzem significativamente riscos relacionados à reutilização de credenciais
+Gerenciadores também auxiliam na identificação de páginas falsas de login
+Engenharia social frequentemente é mais eficaz do que ataques técnicos
+O phishing explora confiança e desatenção dos usuários
+Insight
+
+Percebi que a segurança de uma conta depende não apenas da complexidade da senha, mas também dos hábitos do usuário, da forma como as credenciais são armazenadas e dos mecanismos adicionais de autenticação utilizados.

@@ -1,0 +1,110 @@
+Dia 25 — VPN, Protocolos de Tunelamento e IPSec
+
+Hoje aprofundei meus conhecimentos em redes seguras, estudando o funcionamento das VPNs, protocolos de tunelamento e mecanismos utilizados para proteger a comunicação entre dispositivos e redes.
+
+Virtual Private Network (VPN)
+
+Estudei o conceito de VPN (Virtual Private Network), tecnologia utilizada para criar conexões seguras através de redes públicas, como a internet.
+
+A VPN permite:
+
+Proteger dados durante a transmissão
+Garantir privacidade na comunicação
+Permitir acesso remoto seguro
+Interligar redes de forma protegida
+
+Compreendi que a VPN funciona criando um “túnel” criptografado entre os pontos de comunicação.
+
+Insight: VPNs são fundamentais para proteger informações em ambientes remotos e redes não confiáveis.
+
+Protocolo de Canalização Ponto a Ponto (PPTP)
+
+Aprendi sobre o PPTP (Point-to-Point Tunneling Protocol), um dos primeiros protocolos utilizados para implementação de VPNs.
+
+Características principais:
+
+Facilidade de configuração
+Baixo consumo de recursos
+Utilização de tunelamento para transporte de dados
+
+No entanto, também compreendi que o PPTP possui vulnerabilidades conhecidas e atualmente não é considerado um protocolo seguro para ambientes modernos.
+
+Insight: Facilidade de uso não significa segurança adequada.
+
+Protocolo de Enlace de Camada 2 (L2F)
+
+Estudei o L2F (Layer 2 Forwarding), protocolo desenvolvido para criar túneis de comunicação em redes corporativas.
+
+O protocolo permite:
+
+Encapsulamento de tráfego
+Comunicação remota
+Transporte de dados entre dispositivos
+
+Compreendi que ele serviu como base para evoluções posteriores em protocolos de VPN.
+
+Protocolo de Tunelamento de Camada 2 (L2TP)
+
+Também estudei o L2TP (Layer 2 Tunneling Protocol), evolução de tecnologias anteriores de tunelamento.
+
+Características:
+
+Combina recursos do PPTP e L2F
+Não oferece criptografia nativamente
+Geralmente utilizado junto com IPSec
+
+O uso combinado com IPSec proporciona autenticação e criptografia da comunicação.
+
+Insight: Muitos protocolos dependem da integração com outros mecanismos para garantir segurança completa.
+
+IPSec
+
+Aprofundei o estudo sobre IPSec, conjunto de protocolos responsável por fornecer segurança em comunicações IP.
+
+O IPSec oferece:
+
+Criptografia
+Integridade dos dados
+Autenticação
+Proteção contra alterações durante a transmissão
+
+Também compreendi os principais componentes:
+
+AH (Authentication Header)
+ESP (Encapsulating Security Payload)
+
+O ESP é responsável por proteger os dados utilizando criptografia.
+
+Insight: IPSec é uma das principais tecnologias utilizadas para VPNs corporativas seguras.
+
+Implementação de uma VPN
+
+Estudei os principais passos necessários para implementação de uma VPN:
+
+Definição do protocolo utilizado
+Configuração de autenticação
+Criação de túneis seguros
+Controle de acesso
+Testes de conectividade
+
+Também compreendi a importância da criptografia e da gestão adequada de credenciais durante a implementação.
+
+Configuração de Conexão
+
+Por fim, analisei como ocorre a configuração de conexões VPN em ambientes reais.
+
+Elementos comuns:
+
+Endereço do servidor VPN
+Tipo de protocolo
+Usuário e senha
+Certificados digitais
+Chaves de autenticação
+
+Percebi que erros de configuração podem comprometer totalmente a segurança da comunicação.
+
+Conclusão do Dia
+
+Com este estudo, consolidei meu entendimento sobre como VPNs funcionam e como protocolos de tunelamento são utilizados para proteger comunicações em redes públicas.
+
+Também compreendi a importância do IPSec como mecanismo de segurança e a necessidade de configurações adequadas para garantir conexões seguras.

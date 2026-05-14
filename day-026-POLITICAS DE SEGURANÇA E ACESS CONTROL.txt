@@ -1,0 +1,93 @@
+Dia 26 — Políticas de Segurança e Controle de Acesso
+
+Hoje estudei a importância das políticas de segurança da informação e como elas ajudam a estabelecer regras, controles e boas práticas dentro de um ambiente corporativo.
+
+Também aprofundei conceitos relacionados à utilização segura de recursos de TI, privilégios de acesso e monitoramento de senhas fracas.
+
+Introdução às Políticas de Segurança
+
+Compreendi que políticas de segurança são documentos responsáveis por definir diretrizes, responsabilidades e regras para proteção das informações dentro de uma organização.
+
+Essas políticas ajudam a:
+
+Padronizar procedimentos
+Reduzir riscos
+Definir responsabilidades
+Orientar usuários e administradores
+
+Percebi que a segurança não depende apenas de tecnologia, mas também de processos e comportamento dos usuários.
+
+Insight: Sem políticas bem definidas, controles técnicos se tornam inconsistentes e difíceis de aplicar.
+
+Política de Uso dos Recursos de TI
+
+Estudei como organizações definem regras para utilização adequada de recursos tecnológicos.
+
+Essas políticas normalmente abordam:
+
+Uso de computadores corporativos
+Acesso à internet
+Utilização de e-mails institucionais
+Instalação de softwares
+Compartilhamento de informações
+
+Também compreendi que o objetivo dessas regras é proteger tanto os dados quanto a infraestrutura da empresa.
+
+Insight: O uso inadequado de recursos de TI pode gerar riscos operacionais e incidentes de segurança.
+
+Segurança no Terminal
+
+Aprofundei práticas relacionadas à segurança em terminais e estações de trabalho.
+
+Principais medidas estudadas:
+
+Bloqueio automático de sessão
+Controle de acesso local
+Encerramento de sessões inativas
+Restrição de usuários não autorizados
+
+Também compreendi a importância de reduzir a exposição física e lógica dos dispositivos utilizados pelos colaboradores.
+
+Insight: Um terminal desprotegido pode comprometer toda a segurança do ambiente.
+
+Privilégios
+
+Estudei o conceito de privilégios e controle de permissões em sistemas.
+
+Compreendi a importância do princípio do menor privilégio, no qual usuários devem possuir apenas os acessos necessários para executar suas funções.
+
+Riscos de privilégios excessivos:
+
+Alterações indevidas
+Vazamento de dados
+Execução de ações críticas sem controle
+
+Também percebi que contas administrativas representam alvos prioritários em ataques.
+
+Insight: Quanto maior o privilégio, maior o impacto potencial em caso de comprometimento.
+
+Monitoramento de Senhas Fracas
+
+Por fim, estudei a importância de identificar e monitorar senhas inseguras dentro de ambientes corporativos.
+
+Características comuns de senhas fracas:
+
+Sequências simples
+Poucos caracteres
+Reutilização de senhas
+Informações previsíveis
+
+Medidas de mitigação:
+
+Políticas de senha forte
+Expiração periódica
+Autenticação multifator (MFA)
+Monitoramento contínuo
+
+Insight: Senhas continuam sendo um dos principais vetores de comprometimento em ambientes corporativos.
+
+Conclusão do Dia
+
+Com este estudo, consolidei a importância das políticas de segurança como base para definição de controles e boas práticas dentro das organizações.
+
+Também compreendi que controle de privilégios, proteção de terminais e gestão adequada de senhas são fatores essenciais para reduzir riscos e fortalecer a segurança operacional.
